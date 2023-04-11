@@ -1,0 +1,40 @@
+.contact-info-container{
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+.contact-info-content{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    gap : 20px;
+    align-items: center;
+}
+.contact-description{
+    font-weight: 100;
+    max-width: 300px;
+}
+
+.contact-icon{
+    color: #f26b38;
+    font-size: 30px;
+}
+
+.contact-title{
+    font-weight: 600;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: #f26b38;
+}
+
+.contact-link:hover{
+    text-decoration: underline;
+}
+
+.hide{
+    display: none;
+}

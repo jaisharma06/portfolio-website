@@ -1,0 +1,10 @@
+.navbarItems{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap:50px;
+    height: 100%;
+}

@@ -1,0 +1,22 @@
+.headerWithSubheader{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+}
+
+.header{
+    color:#141414;
+    font-weight: 100;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.sub-header{
+    font-weight: 100;
+    font-size:18px;
+    text-transform: uppercase;
+    color: #727272;
+}

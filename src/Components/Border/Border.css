@@ -1,0 +1,39 @@
+.leftBorder{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left: 0;
+    width:30px;
+    background-color: #f26b38;
+    z-index: 100;
+}
+
+.rightBorder {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    background-color: #f26b38;
+    z-index: 100;
+}
+
+.topBorder {
+    position: fixed;
+    top: 0;
+    right: 30px;
+    left: 30px;
+    height: 30px;
+    background-color: #f26b38;
+    z-index: 100;
+}
+
+.bottomBorder {
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    left: 30px;
+    height: 30px;
+    background-color: #f26b38;
+    z-index: 100;
+}

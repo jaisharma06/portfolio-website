@@ -1,0 +1,30 @@
+.contacts-info{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    gap:30px;
+    margin-bottom: 50px;
+}
+.contacts-title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 13px;
+    border-bottom: 6px;
+    border-bottom-style: solid;
+    border-color: #ede574;
+    box-sizing: border-box;
+    max-width: fit-content;
+}
+
+.contact-details{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    gap:100px;
+}
+
+.contact-info-panel{
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+}

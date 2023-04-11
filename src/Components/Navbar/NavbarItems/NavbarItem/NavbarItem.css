@@ -1,0 +1,16 @@
+.navbarItem {
+    font-size: 16px;
+    font-weight: 100;
+    color: #363636;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbarItem:hover{
+    color:#f26b38;
+}
+
+.navbarItem:focus{
+    color: #f26b38;
+    text-decoration: underline;
+}

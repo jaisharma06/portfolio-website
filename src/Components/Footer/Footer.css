@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    bottom:30px;
+    left:0;
+    right:0;
+    padding: 0 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap:50px;
+    background-color: white;
+}
