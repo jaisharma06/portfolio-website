@@ -1,0 +1,36 @@
+.dropdownMenu{
+    min-width: 160px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+
+.hidden{
+    display: none;
+    transform: scaleX(0);
+    transition: scaleX 1s linear;
+}
+
+.visible{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    transform-origin: top center;
+    animation-name: scale-animation;
+    animation-duration: 0.3s;
+}
+
+@keyframes scale-animation {
+  from {transform: scaleY(0);}
+  to {transform: scaleY(1);}
+}
+
+@media (min-width:1040px) {
+     .visible{
+        display: none;
+    }   
+}

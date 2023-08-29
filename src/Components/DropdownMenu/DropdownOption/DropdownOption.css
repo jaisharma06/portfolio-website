@@ -1,0 +1,19 @@
+.option{
+    font-size: 16px;
+    font-weight: 100;
+    color: #363636;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    border-bottom: ridge 1px rgba(0.8, 0.8, 0.8, 0.07);
+}
+
+.option:hover{
+    color:#f26b38;
+}
+
+.option:focus{
+    color: #f26b38;
+    text-decoration: underline;
+}

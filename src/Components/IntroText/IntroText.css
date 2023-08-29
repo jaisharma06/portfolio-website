@@ -2,7 +2,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-        /* bring your own prefixes */
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
@@ -12,16 +11,32 @@
 
 .introSubHeading{
     font-weight: 100;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .glitch {
     color: #141414;
-    font-size: 68px;
+    font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
     position: relative;
     margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .glitch {
+        font-size: 38px;
+    }
+
+    .introSubHeading{
+    font-size: 16px;
+}
+}
+
+@media (min-width: 1040px) {
+    .glitch {
+        font-size: 68px;
+    }
 }
 
 @keyframes noise-anim {

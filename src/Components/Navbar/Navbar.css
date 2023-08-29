@@ -1,14 +1,21 @@
 .Navbar{
-    padding:100px 10%;
+    padding: 50px 10%;
     display: flex;
     flex-flow: row;
     flex-direction: row;
     align-items: center;
-    height:100px;
+    height: auto;
     width: 100%;
-    overflow: hidden;
     box-sizing: border-box;
     position: fixed;
     z-index: 10;
+    justify-content: space-between;
     background-color: white;
+}
+
+@media (min-width:1040px) {
+    .Navbar{
+        padding: 100px 10%;
+    }
+    
 }
