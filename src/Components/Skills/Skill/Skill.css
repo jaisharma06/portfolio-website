@@ -1,0 +1,25 @@
+.skill{
+    width: 100%;
+}
+
+.p-progressbar .p-component .p-progressbar-determinate{
+    height: 10px;
+}
+
+.skill-content
+{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+}
+
+.skill-name
+{
+    width:100%;
+    text-align: left;
+}
+
+.react-sweet-progress-line-inner
+{
+    background-color: #f26b38 !important;
+}
