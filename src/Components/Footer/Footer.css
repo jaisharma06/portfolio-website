@@ -4,7 +4,7 @@
     left:0;
     right:0;
     padding: 0 50px;
-    height: 100px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     flex-flow: row;
@@ -12,4 +12,10 @@
     align-items: center;
     gap:50px;
     background-color: white;
+}
+
+@media (min-width:1040px) {
+    .footer{
+        height: 100px;
+    }
 }

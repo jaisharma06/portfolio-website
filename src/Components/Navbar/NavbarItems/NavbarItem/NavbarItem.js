@@ -9,7 +9,6 @@ class NavbarItem extends React.Component {
         <a
           className="navbarItem"
           href={this.props.href}
-          attributes-list
           download={this.props.download}
         >
           {this.props.children}

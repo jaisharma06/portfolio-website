@@ -16,7 +16,14 @@
 
 .sub-header{
     font-weight: 100;
-    font-size:18px;
+    font-size:14px;
     text-transform: uppercase;
     color: #727272;
+    width: 100%;
+}
+
+@media (min-width: 1040px) {
+        .sub-header{
+        font-size:18px;
+    }
 }

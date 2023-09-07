@@ -20,8 +20,6 @@ class NavbarItems extends React.Component {
     this.setState({
       isOpen : !_isOpen
     })
-
-    console.log('Hamburger: ', this.state.isOpen)
   }
 
   render() {

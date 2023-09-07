@@ -8,7 +8,7 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      error: "This is sample error.",
+      error: "This is a sample error.",
       errorMessageClasses: "error-message-contacts hide",
     };
   }
@@ -60,19 +60,18 @@ class Contact extends React.Component {
                 placeholder="Email"
                 className="contact-input"
               />
-              <input
-                type="text-box"
+              <textarea
                 id="input_message"
                 name="Message"
                 placeholder="Message"
-                className="contact-input-box"
+                className="contact-input"
               />
 
               <button
                 type="submit"
                 form="contact-form-id"
                 value="Send Message"
-                class="form-button"
+                className="form-button"
                 onClick={this.onSubmit}
               >
                 Send Message

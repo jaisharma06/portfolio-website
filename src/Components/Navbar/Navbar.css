@@ -1,5 +1,5 @@
 .Navbar{
-    padding: 50px 10%;
+    padding: 30px 10% 0px 10% !important;
     display: flex;
     flex-flow: row;
     flex-direction: row;
@@ -18,4 +18,10 @@
         padding: 100px 10%;
     }
     
+}
+
+@media (min-height:500px) {
+    .Navbar{
+        padding: 50px 10%;
+    }
 }

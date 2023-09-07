@@ -18,13 +18,20 @@
 
 .contact-details{
     display: flex;
-    flex-flow: row;
-    flex-direction: row;
-    gap:100px;
+    flex-flow: column;
+    flex-direction: column;
 }
 
 .contact-info-panel{
     display: flex;
     flex-flow: column;
     flex-direction: column;
+}
+
+@media (min-width: 1040px) {
+    .contact-details{
+        flex-flow: row;
+        flex-direction: row;
+        gap:100px;
+    }
 }
