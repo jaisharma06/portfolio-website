@@ -1,104 +1,104 @@
-.contact{
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    padding-top:100px;
-    letter-spacing: 0.04em;
+.contact {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  letter-spacing: 0.04em;
 }
 
-.contacts-info-div{
-    margin-top:30px;
-    margin-bottom:90px;
+.contacts-info-div {
+  margin-top: 30px;
+  margin-bottom: 90px;
 }
 
-.contact-input{
-    width: 100%;
-    height:50px;
-    border:none;
-    border-bottom: solid 1px #141414;
-    letter-spacing: 0.1em;
-    background-color: transparent;
-    resize: none;
+.contact-input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: solid 1px #141414;
+  letter-spacing: 0.1em;
+  background-color: transparent;
+  resize: none;
 }
 
-.contact-input:focus{
-   outline:none;
+.contact-input:focus {
+  outline: none;
 }
 
-.contact-input:hover, .contact-input:focus{
-    border-bottom-color: #f26b38;
+.contact-input:hover,
+.contact-input:focus {
+  border-bottom-color: #f26b38;
 }
 
-.contact-input::placeholder{
-    color:#717171;
-    font-size: 14px;
-    font-weight: 100;
+.contact-input::placeholder {
+  color: #717171;
+  font-size: 14px;
+  font-weight: 100;
 }
 
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    flex-flow: column;
-    gap:50px;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  gap: 50px;
 }
 
 .contact-input-box {
-    width: 100%;
-    height: 150px;
-    border: none;
-    border-bottom: solid 1px #141414;
-    letter-spacing: 0.1em;
-    background-color: transparent;
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-bottom: solid 1px #141414;
+  letter-spacing: 0.1em;
+  background-color: transparent;
 }
 
 .contact-input-box:focus {
-    outline: none;
+  outline: none;
 }
 
 .contact-input-box:hover,
 .contact-input-box:focus {
-    border-bottom-color: #f26b38;
+  border-bottom-color: #f26b38;
 }
 
 .contact-input-box::placeholder {
-    color: #717171;
-    font-size: 14px;
-    font-weight: 100;
+  color: #717171;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 50px white inset;
-    /* Change the color to your own background color */
-    -webkit-text-fill-color: #333;
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  /* Change the color to your own background color */
+  -webkit-text-fill-color: #333;
 }
 
 input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0 50px white inset;
-    /*your box-shadow*/
-    -webkit-text-fill-color: #333;
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  /*your box-shadow*/
+  -webkit-text-fill-color: #333;
 }
 
-.form-button{
-    max-width: 200px;
-    height: 50px;
-    border: none;
-    background-color: #f26b38;
-    color:#ffffff;
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 0.1em;
-    border:none;
+.form-button {
+  max-width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #f26b38;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  border: none;
 }
 
 .form-button:hover {
   background-color: rgb(255, 255, 255);
   color: #f26b38;
-  border:solid 2px #f26b38;
+  border: solid 2px #f26b38;
 }
 
 .form-button:active {
-   transform:scale(0.99)
+  transform: scale(0.99);
 }
 
 .contacts-bg{
@@ -116,33 +116,33 @@ input:-webkit-autofill:focus {
     z-index: -1;
 }
 
-.error-message-contacts{
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    font-weight: 100;
-    letter-spacing: 0.1em;
-    border: solid 2px #ffb900;
+.error-message-contacts {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  border: solid 2px #ffb900;
 }
 
 #reset-this-root {
-    all: unset;
+  all: unset;
 }
 
 @media (min-width: 1040px) {
-    .contact{
-        width:50%;
-    }
+  .contact {
+    width: 50%;
+  }
 
-    .contacts-info-div{
-        margin-top:150px;
-        margin-bottom:150px;
-    }
+  .contacts-info-div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
 
-    .contacts-info-div{
-        margin-top:100px;
-        margin-bottom:150px;
-    }
+  .contacts-info-div {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
 }

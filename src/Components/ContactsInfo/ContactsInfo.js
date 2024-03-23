@@ -14,7 +14,8 @@ class ContactsInfo extends React.Component {
               icon="phone"
               size="2x"
               contactTitle="Phone"
-              details="+91 - 8447490922"
+              url="+91 - 8447490922"
+              href="tel:+918447490922"
             ></ContactInfo>
 
             <ContactInfo
@@ -29,7 +30,7 @@ class ContactsInfo extends React.Component {
               icon="address"
               size="2x"
               contactTitle="Address"
-              details="Flat Number - D2, Floor - 2, Kristal Galena Apartment, Bellandur Main Road, Bellandur, Bangalore, Karnataka - 560103"
+              details="Flat Number - 703, Floor - 7, Tower - S3, Silverwood Regency Apartment, Hosa Road, Kasavanahalli, Bangalore, Karnataka - 560035"
             ></ContactInfo>
           </div>
         </div>

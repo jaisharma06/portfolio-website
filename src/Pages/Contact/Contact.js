@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ContactsInfo from "../../Components/ContactsInfo/ContactsInfo";
-import HeaderWithSubheader from "../../Components/HeaderWithSubheader/HeaderWithSubheader";
 import backgroundImg from "../../content/contact_bg.png";
 import "./Contact.css";
 import IntroText from "../../Components/IntroText/IntroText";

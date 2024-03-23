@@ -13,8 +13,6 @@ class IntroText extends React.Component {
           <Typewriter
             words={this.props.subHeading}
             loop={true}
-            cursor
-            cursorStyle="_"
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
