@@ -9,10 +9,10 @@ class Home extends React.Component {
     return (
       <div className="home">
         <img src={backgroundImg} className="homeBg" />
-        <IntroText subHeading="AR/VR and Games developer">
+        <IntroText subHeading={["AR/VR and Games developer"]}>
           I ' M Jai Prakash
         </IntroText>
-        <Skills/>
+        <Skills />
       </div>
     );
   }

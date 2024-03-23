@@ -3,6 +3,7 @@ import ContactsInfo from "../../Components/ContactsInfo/ContactsInfo";
 import HeaderWithSubheader from "../../Components/HeaderWithSubheader/HeaderWithSubheader";
 import backgroundImg from "../../content/contact_bg.png";
 import "./Contact.css";
+import IntroText from "../../Components/IntroText/IntroText";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -32,9 +33,9 @@ class Contact extends React.Component {
       <div className="contact">
         <img src={backgroundImg} className="contacts-bg" />
         <div className="contact-content">
-          <HeaderWithSubheader subHeading="I ' m available for freelance hire">
-            Contacts
-          </HeaderWithSubheader>
+          <IntroText subHeading={["I'M AVAILABLE FOR FREELANCE HIRE"]}>
+            Contact
+          </IntroText>
           <div className="contacts-info-div">
             <ContactsInfo title="contacts info" hireMeTitle="Hire Me" />
 
